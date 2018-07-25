@@ -458,11 +458,9 @@ section {
 /* SECTION: MAIN-HEADER; */
 
 .section-main-header {
-  padding: 0;
+  width: 100%;
   height: 800px;
   background: url('../img/section-header.png') center;
-  -webkit-background-size: cover;
-  background-size: cover;
 }
 .mh-wrap {
   margin-top: 150px;
@@ -480,6 +478,7 @@ section {
 }
 .mh-button {
   margin-top: 50px;
+  padding-left: 50px;
 }
 .btn-mh {
   margin-top: 20px;
